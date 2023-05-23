@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happi Happi</title>
+
+    <!-- Web icon -->
+    <!-- <link rel="icon"
+        href="https://static.vecteezy.com/system/resources/previews/012/223/540/original/shopee-element-symbol-shopee-food-shopee-icon-free-vector.jpg"
+        type="image/x-icon"> -->
+    <!-- Web icon -->
+
+    <!-- Bootsrap v5.0.2 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootsrap v5.0.2 -->
+
+    <link href="./css/product.css" rel="stylesheet">
+</head>
+
+<body style="background-color: 	#2cbbc3;">
+    <nav class="navbar navbar-expand-sm navbar-collapse-sm sticky-top" style="background-color: #e1f1f2;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Happi Happi</a>
+            <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Trang chủ</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="foodMenuDropdown" href="#" role="button"
+                            data-bs-toggle="dropdown" data-bs-auto-close="outside">
+                            Sản phẩm
+                        </a>
+                        <ul class="dropdown-menu dropend">
+                            <li><a class="dropdown-item" href="#">Thức ăn</a></li>
+                            <li><a class="dropdown-item" href="#">Đồ ăn vặt - Bánh thưởng</a></li>
+                            <li><a class="dropdown-item" href="#">Đồ chơi</a></li>
+                            <li><a class="dropdown-item" href="#">Phụ kiện</a></li>
+                            <li><a class="dropdown-item" href="#">Các sản phẩm chăm sóc thú cưng khác</a></li>
+                        </ul>
+
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Liên hệ</a>
+                    </li>
+                    <li class="nav-item ms-md-2 ms-lg-2">
+                        <a class="btn btn-warning" href="#"><i class="bi bi-bag-heart-fill"></i> Giỏ hàng</a>
+                    </li>
+                </ul>
+                <form class="d-block d-sm-block d-md-flex d-lg-flex mt-3 mt-sm-0" role="search">
+                    <div class="d-flex">
+                        <input class="form-control me-2 shadow-none" type="search" placeholder="Bannana is crying..."
+                            aria-label="Search">
+                        <button class="btn btn-warning" type="submit">Search</button>
+                    </div>
+                    <div class="vr mx-3 d-none d-sm-block"></div>
+                    <br>
+                    <a class="btn btn-warning me-3 mb-2 mb-sm-0 text-nowrap" href="./login.html">
+                        <i class="bi bi-door-open-fill"></i> Đăng nhập
+                    </a>
+                    <a class="btn btn-warning me-2 mb-2 mb-sm-0 text-nowrap" href="./register.html">
+                        <i class="bi bi-box-arrow-in-right"></i> Đăng ký
+                    </a>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container pb-4" style="background-color: #ff9934;">
+        <div class="row">
+            <div id="carouselExampleAutoplaying" class="carousel slide bg-light" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://steamuserimages-a.akamaihd.net/ugc/784122845539964192/CD556A633510634D654B7C3CBB6A50DFFDC3258F/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"
+                            class="d-block w-25 m-auto" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://media.tenor.com/u8M7kk5ZXmwAAAAM/banana-cat-crying.gif"
+                            class="d-block w-25 m-auto" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://media.tenor.com/QknbFwexXewAAAAC/apple-cat.gif" class="d-block w-25 m-auto"
+                            alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <nav class="mt-3" style="--bs-breadcrumb-divider: '>'; background-color: #f8f246;" aria-label="breadcrumb">
+            <ol class="breadcrumb p-3">
+                <li class="breadcrumb-item"><a href="#" class="">Trang chủ</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Sản phẩm</li>
+            </ol>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <span class="fs-1">ME-O Cat Seafood</span>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 col-lg-6 d-block">
+                    <div class="col bg-light">
+                        <img class="img-fluid mx-auto d-flex mainImg"
+                            src="http://www.perfectcompanion.com.vn/vnt_upload/product/12_2019/meo_seafood-new.png"
+                            alt="">
+                    </div>
+
+                    <div class="col d-flex mt-2">
+                        <img class="img-fluid mx-auto d-flex thumnailImg"
+                            src="http://www.perfectcompanion.com.vn/vnt_upload/product/12_2019/meo_seafood-new.png"
+                            alt="">
+                        <img class="img-fluid mx-auto d-flex thumnailImg"
+                            src="http://www.perfectcompanion.com.vn/vnt_upload/product/05_2022/m_cat_seafood_1.png"
+                            alt="">
+                        <img class="img-fluid mx-auto d-flex thumnailImg"
+                            src="http://www.perfectcompanion.com.vn/vnt_upload/product/05_2022/m_cat_seafood_2.png"
+                            alt="">
+                        <img class="img-fluid mx-auto d-flex thumnailImg"
+                            src="http://www.perfectcompanion.com.vn/vnt_upload/product/05_2022/m_cat_seafood_3.png"
+                            alt="">
+                        <img class="img-fluid mx-auto d-flex thumnailImg"
+                            src="http://www.perfectcompanion.com.vn/vnt_upload/product/05_2022/m_cat_seafood_4.png"
+                            alt="">
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                    <span class="fs-2">
+                        Chi tiết sản phẩm:
+                    </span>
+
+                    <table class="table table-striped" style="background-color: #e1f1f2;">
+                        <tbody>
+                            <tr>
+                                <th scope="row">Taurine</th>
+                                <td>Amino acid essential for eye activity and improving eyesight of cats</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Vitamin C</th>
+                                <td>Strengthen the immune system and help reduce stressors from the environment</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Calcium, Phosphorus and Vitamin D</th>
+                                <td>Help bones strong and teeth be healthy</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Low sodium formula</th>
+                                <td>Helps reduce the risk of high blood pressure, kidney and heart diseases in cats</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Flutd</th>
+                                <td>The formula helps prevent the risk of Flutd (urinary tract disease in cats) and
+                                    bladder stones</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Omega 3 & Omega 6 and zinc</th>
+                                <td>Omega 3 and Omega 6 from high quality fish oil in combination with zinc help nourish
+                                    skin and hair</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <button class="btn btn-primary ms-3 mt-3 p-2">
+                        <i class="bi bi-bag-fill"></i> Mua ngay
+                    </button>
+                    <button class="btn btn-danger ms-2 mt-3 p-2">
+                        <i class="bi bi-bag-heart-fill"></i> Thêm vào giỏ
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-4 rounded-2">
+            <ul class="nav nav-tabs text-black" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link text-black active" id="productInfo-tab" data-bs-toggle="tab"
+                        data-bs-target="#productInfo-tab-pane" type="button" role="tab"
+                        aria-controls="productInfo-tab-pane" aria-selected="true">PRODUCT INFORMATION</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link text-black" id="documentProduct-tab" data-bs-toggle="tab"
+                        data-bs-target="#documentProduct-tab-pane" type="button" role="tab"
+                        aria-controls="documentProduct-tab-pane" aria-selected="false">DOUCMENT</button>
+                </li>
+            </ul>
+            <div class="tab-content bg-light p-3 rounded-bottom-2" id="TabContent">
+
+                <div class="tab-pane fade show active" id="productInfo-tab-pane" role="tabpanel"
+                    aria-labelledby="productInfo-tab" tabindex="0">
+                    <div class="row d-inline-flex">
+                        <span>
+                            <strong>Main ingredients:</strong> Whole grains, poultry by-product powder, vegetable
+                            protein, fish meal, cassava, chicken fat, dried yeast, fish digest powder, shrimp meal,
+                            squid by-product powder, iodized salt, taurine, vitamins, minerals, antioxidant, food
+                            coloring.
+                        </span>
+
+                        <span class="my-2">
+                            <strong>Nutritional ingredients:</strong>
+                        </span>
+                        <div class="col">
+                            <table class="table table-striped table-bordered">
+                                <tbody>
+                                    <tr>
+                                        <td>Protein</td>
+                                        <td>At least</td>
+                                        <td>30%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fat</td>
+                                        <td>At least</td>
+                                        <td>9%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fiber</td>
+                                        <td>Up to</td>
+                                        <td>4%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Moisture</td>
+                                        <td>Up to</td>
+                                        <td>10%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ME</td>
+                                        <td></td>
+                                        <td>3000 kcal/kg</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <span class="my-2">
+                                <strong>User manual:</strong>
+                            </span>
+                            <div class="col">
+                                <table class="table table-bordered">
+                                    <tbody>
+                                        <tr>
+                                            <td class="table-secondary">Weight (kg)</td>
+                                            <td class="table-secondary">Feeding amount (g/day)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2.2</td>
+                                            <td>42</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2.7</td>
+                                            <td>50</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3.2</td>
+                                            <td>58</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3.6</td>
+                                            <td>67</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4.0</td>
+                                            <td>75</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4.5</td>
+                                            <td>83</td>
+                                        </tr>
+                                        <tr>
+                                            <td>5.0</td>
+                                            <td>92</td>
+                                        </tr>
+                                        <tr>
+                                            <td>5.45</td>
+                                            <td>100</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="documentProduct-tab-pane" role="tabpanel"
+                    aria-labelledby="documentProduct-tab" tabindex="0">
+                    <div class="row d-inline-flex">
+                        <span class="mb-2">
+                            <strong>STORAGE INSTRUCTIONS:</strong> Store in cool and dry place
+                        </span>
+                        <span>
+                            <strong>Shelf life:</strong> 18 Months
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+<!-- Footer -->
+<div class="container">
+    <footer class="py-3 my-4">
+        <div class="row justify-content-center text-white p-5" style="background-color: #8c5826;">
+            <div class="col-sm-3 col-md-3 col-lg-3">
+                <p><strong>Happi Happi Pet Shop</strong></p>
+                <p><i class="bi bi-envelope"></i> Email:</p>
+                <p><i class="bi bi-telephone-fill"></i> Phone:</p>
+                <p><i class="bi bi-geo-alt"></i> Địa chỉ:</p>
+                <p><i class="bi bi-bank"></i> Mã số thuế:</p>
+                <p><i class="bi bi-key"></i> Giấy phép kinh doanh:</p>
+            </div>
+
+            <div class="col-sm-3 col-md-3 col-lg-4 ms-5">
+                <div class="map-container" class="z-depth-1-half map-container" style="height: 250px">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.4439805401025!2d106.62348867514035!3d10.853796757761623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752a20d8555e69%3A0x743b1e9558fb89e0!2sQTSC%209%20Building!5e0!3m2!1svi!2s!4v1683958785771!5m2!1svi!2s"
+                        frameborder="0" style="border:0; width: 100%; height: 100%;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+            <div class="col-sm-3 col-md-3 col-lg-3 rounded-3 text-white ms-5">
+
+            </div>
+        </div>
+        <hr>
+        <p class="text-center text-muted">© 2023 Company, Inc</p>
+    </footer>
+</div>
+<!-- Footer -->
+
+</html>
