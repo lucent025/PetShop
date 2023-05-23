@@ -23,7 +23,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
     <!-- Angular -->
 
-    
+
     <style>
         .myImg {
             height: 500px;
@@ -90,7 +90,35 @@
 
     <div class="container pb-2" style="background-color: #ff9934;">
         <div class="row">
-            <div id="carouselExampleAutoplaying" class="carousel slide bg-light" data-bs-ride="carousel">
+            <!-- Responsive for Mobile -->
+            <div id="carousel_Mobile_Responsive" class="carousel slide bg-light d-block d-sm-none" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://imgscf.slidemembers.com/docs/1/1/707/cat_dog_google_slides_706697.jpg"
+                            class="d-block w-100 myImg m-auto" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://hips.hearstapps.com/edc.h-cdn.co/assets/16/05/1280x640/landscape-1454434238-gettyimages-157610688.jpg?resize=1200:*"
+                            class="d-block w-100 myImg m-auto" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdK7Q8ZJfQUvmH1hFuSYUjRfj3ACF2CFiDQA&usqp=CAU"
+                            class="d-block w-100 myImg m-auto" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel_Mobile_Responsive"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel_Mobile_Responsive"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- Responsive for PC/Laptop -->
+            <div id="carousel_PC-Laptop_Responsive" class="carousel slide bg-light d-none d-sm-block" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="https://imgscf.slidemembers.com/docs/1/1/707/cat_dog_google_slides_706697.jpg"
@@ -101,16 +129,16 @@
                             class="d-block myImg m-auto" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdK7Q8ZJfQUvmH1hFuSYUjRfj3ACF2CFiDQA&usqp=CAU" class="d-block myImg m-auto"
-                            alt="...">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdK7Q8ZJfQUvmH1hFuSYUjRfj3ACF2CFiDQA&usqp=CAU"
+                            class="d-block myImg m-auto" alt="...">
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel_PC-Laptop_Responsive"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel_PC-Laptop_Responsive"
                     data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
