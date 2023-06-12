@@ -1,0 +1,46 @@
+[
+    {
+        "id": "0",
+        "productName": "Me-O Seafood - Adult",
+        "price": "120000",
+        "salePrice": "140000",
+        "brand": "Me-O",
+        "variants": "Seafood",
+        "type": "Mèo trưởng thành",
+        "mass": "1.2",
+        "picture": "https://www.perfectcompanion.com.vn/vnt_upload/product/12_2019/meo_seafood-new.png"
+      },
+      {
+        "id": "1",
+        "productName": "Me-O Tuna - Adult",
+        "price": "120000",
+        "salePrice": "130000",
+        "brand": "Me-O",
+        "variants": "Seafood",
+        "type": "Mèo trưởng thành",
+        "mass": "1.2",
+        "picture": "http://www.perfectcompanion.com.vn/vnt_upload/product/12_2019/meo_tuna-new.png"
+      },
+      {
+        "id": "2",
+        "productName": "Me-O Salmon - Adult",
+        "price": "120000",
+        "salePrice": "120000",
+        "brand": "Me-O",
+        "variants": "Seafood",
+        "type": "Mèo trưởng thành",
+        "mass": "1.2",
+        "picture": "http://www.perfectcompanion.com.vn/vnt_upload/product/01_2020/Me-O-Cat-Adult-Salmon.png"
+      },
+      {
+        "id": "0",
+        "productName": "Me-O Mackerel - Adult",
+        "price": "120000",
+        "salePrice": "110000",
+        "brand": "Me-O",
+        "variants": "Seafood",
+        "type": "Mèo trưởng thành",
+        "mass": "1.2",
+        "picture": "http://www.perfectcompanion.com.vn/vnt_upload/product/12_2019/meo_mackerel-new.png"
+      }
+]
